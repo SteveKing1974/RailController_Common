@@ -86,21 +86,25 @@ public:
     Q_INVOKABLE  static QString stationOuterLeft() { return QString("stationOuterLeft"); }
     Q_INVOKABLE  static QString stationOuterCenter() { return QString("stationOuterCenter"); }
     Q_INVOKABLE  static QString stationSidingRight1() { return QString("stationSidingRight1"); }
+    Q_INVOKABLE  static QString stationSidingRight1Entrance() { return QString("stationSidingRight1Entrance"); }
     Q_INVOKABLE  static QString dummyRightBetweenSidings() { return QString("dummyRightBetweenSidings"); }
 
     Q_INVOKABLE  static QString stationSidingRight2() { return QString("stationSidingRight2"); }
     Q_INVOKABLE  static QString stationSidingRight3() { return QString("stationSidingRight3"); }
+    Q_INVOKABLE  static QString stationSidingRight3Entrance() { return QString("stationSidingRight3Entrance"); }
     Q_INVOKABLE  static QString stationOuterToInnerLeft() { return QString("stationOuterToInnerLeft"); }
     Q_INVOKABLE  static QString stationOuterToInnerRight() { return QString("stationOuterToInnerRight"); }
 
     Q_INVOKABLE  static QString dummyStationInner() { return QString("dummyStationInner"); }
     Q_INVOKABLE  static QString stationInnerRight() { return QString("stationInnerRight"); }
+    Q_INVOKABLE  static QString stationInnerRightSiding() { return QString("stationInnerRightSiding"); }
     Q_INVOKABLE  static QString stationInnerCenter() { return QString("stationInnerCenter"); }
     Q_INVOKABLE  static QString dummyLeftBetweenPoints() { return QString("dummyLeftBetweenPoints"); }
     Q_INVOKABLE  static QString stationSidingLeft1() { return QString("stationSidingLeft1"); }
     Q_INVOKABLE  static QString dummyLeftBetweenSidings() { return QString("dummyLeftBetweenSidings"); }
     Q_INVOKABLE  static QString stationSidingLeft2() { return QString("stationSidingLeft2"); }
     Q_INVOKABLE  static QString stationSidingLeft3() { return QString("stationSidingLeft3"); }
+    Q_INVOKABLE  static QString stationSidingLeft3Entrance() { return QString("stationSidingLeft3Entrance"); }
 };
 
 #endif // JSONKEYS_H

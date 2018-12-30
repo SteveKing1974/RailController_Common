@@ -37,10 +37,9 @@ void ClientSocket::moreData()
 
 void ClientSocket::sendData(const QByteArray &data)
 {
-
     quint64 l = m_pSocket->writeDatagram(data, QHostAddress::Broadcast, RECV_DATA_PORT);
 
-    qDebug() << "Sending data" << data.length() << l << data;
+    //qDebug() << "Sending data" << data.length() << l << data;
 }
 
 
